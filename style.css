@@ -98,7 +98,8 @@ header {
 
 .phone_vertical {
     position: relative;
-    right: 23px;
+    top: 1px;
+    right: 24px;
     width: 215px;
     height: 458px;
 }
@@ -191,7 +192,7 @@ header {
     display: flex;
     width: 313.333px;
     margin-right: 6px;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     }
 
 .text {
@@ -208,7 +209,6 @@ header {
 .align {
     width: 940px;
     padding-left: 40px;
-    padding-bottom: 1px;
 }
 
 .black-title {    
@@ -244,7 +244,7 @@ header {
     color: #666d89;
     font-weight: 900;
     text-align: left;
-    padding-top: 69px;
+    padding-top: 68px;
     letter-spacing: -0.005em;
 }
 
