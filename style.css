@@ -40,11 +40,12 @@ header {
 }
 
 .logo {
+    position: relative;
+    bottom: 1px;
     font-weight: 700;
     font-size: 25px;
     color: #ffffff;
     text-transform: uppercase;
-    line-height: 6px;
     letter-spacing: -0.02em;
     text-align: left;
 }
