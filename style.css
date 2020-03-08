@@ -260,7 +260,7 @@ header {
     display: flex;
     list-style:none;
     color: #767e9e;
-    padding-top: 11px;
+    padding-top: 10.5px;
     padding-bottom: 18px;
 }
 
@@ -316,8 +316,8 @@ padding-bottom: 20px;
 .about__gallery {
     width: 940px;
     margin: 0 auto;
-    padding-top: 45px;
-    padding-bottom: 64px;
+    padding-top: 44.5px;
+    padding-bottom: 64.5px;
     display: flex;
     justify-content: space-between;
 }
