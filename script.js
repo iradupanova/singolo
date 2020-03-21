@@ -77,13 +77,13 @@ document.addEventListener("DOMContentLoaded", () => {
         if (data.subject === "singolo" || data.subject !== "") {
             subject.textContent = "Тема: " + data.subject; 
         } else {
-            data.subject.textContent = "Без темы";
+            subject.textContent = "Без темы";
         }
 
         if (data.text === "Portfolio project" || data.text !== "") {
             text.textContent = "Описание: " + data.text; 
         } else {
-            data.text.textContent = "Без описания";
+            text.textContent = "Без описания";
         }
     }
 

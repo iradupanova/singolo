@@ -554,7 +554,8 @@ textarea::placeholder {
 
 .modal__info {
     background-color: #fff;
-    margin: 50% auto;
+    margin: 0 auto;
+    margin-top: 30%;
     padding: 20px 20px;
     width: 60%;
     color: #000;
