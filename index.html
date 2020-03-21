@@ -1,137 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<!-- SINGOLO1 -->
+    <!-- SINGOLO1 -->
 
-    <header class="header">    
+    <header class="header">
         <div class="container">
             <div class="head">
                 <h1 class="logo">singolo</h1>
-                <nav class="nav">
-                   <a class="nav_link" href="#">HOME</a>
-                   <a class="nav_link" href="#">SERVICES</a>
-                   <a class="nav_link" href="#">PORTFOLIO</a>
-                   <a class="nav_link" href="#">ABOUT</a>
-                   <a class="nav_link" href="#">CONTACT</a>
+                <nav class="nav" id="nav">
+                    <a class="nav_link active" href="#phones">HOME</a>
+                    <a class="nav_link" href="#services">SERVICES</a>
+                    <a class="nav_link" href="#black">PORTFOLIO</a>
+                    <a class="nav_link" href="#about">ABOUT</a>
+                    <a class="nav_link" href="#inform">CONTACT</a>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="picture">
-            <div class="phones">
-                <div class="slider__button">
-                    <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                         width="16.000000pt" height="20.000000pt" viewBox="0 0 16.000000 27.000000"
-                         preserveAspectRatio="xMidYMid meet">
+        <section class="picture" id="phones">
+            <div class="container">
+                <div class="phones">
+                    <div class="slider__button">
+                        <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="16.000000pt"
+                                height="20.000000pt" viewBox="0 0 16.000000 27.000000"
+                                preserveAspectRatio="xMidYMid meet">
 
-                        <g transform="translate(0.000000,27.000000) scale(0.100000,-0.100000)"
-                           id="back" fill="#ca4549" stroke="none">
-                            <path d="M58 213 c-32 -32 -58 -68 -58 -79 0 -28 112 -137 136 -132 35 6 28
-39 -20 87 l-46 47 45 44 c49 48 56 83 20 88 -13 2 -39 -17 -77 -55z"/>
-                        </g>
-                    </svg></a>
-                </div>
-                <div class="phone_vertical">
-                    <img src="assets/img/phone_vertical1.png" alt="Phone vertical" />
-                </div>
-                <div class="phone_horizontal">
-                    <img src="assets/img/horizontal.png" alt="Phone horizontal" />
-                </div>
-                <div class="slider__button">
-                    <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                         width="16.000000pt" height="20.000000pt" viewBox="0 0 16.000000 27.000000"
-                         preserveAspectRatio="xMidYMid meet">
-                        <metadata>
-                            Created by potrace 1.15, written by Peter Selinger 2001-2017
-                        </metadata>
-                        <g transform="translate(0.000000,27.000000) scale(0.100000,-0.100000)"
-                           id="next" fill="#ca4549" stroke="none">
-                            <path d="M7 263 c-16 -15 -4 -42 38 -83 l45 -44 -46 -47 c-48 -48 -55 -81 -20
--87 24 -5 136 104 136 133 0 12 -25 45 -58 78 -54 53 -79 67 -95 50z"/>
-                        </g>
-                    </svg></a>
+                                <g transform="translate(0.000000,27.000000) scale(0.100000,-0.100000)" id="back"
+                                    fill="#ca4549" stroke="none">
+                                    <path d="M58 213 c-32 -32 -58 -68 -58 -79 0 -28 112 -137 136 -132 35 6 28
+39 -20 87 l-46 47 45 44 c49 48 56 83 20 88 -13 2 -39 -17 -77 -55z" />
+                                </g>
+                            </svg></a>
+                    </div>
+                    <div class="phone_vertical">
+                        <img src="assets/img/phone_vertical1.png" alt="Phone vertical" />
+                    </div>
+                    <div class="phone_horizontal">
+                        <img src="assets/img/horizontal.png" alt="Phone horizontal" />
+                    </div>
+                    <div class="slider__button">
+                        <a href="#"><svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="16.000000pt"
+                                height="20.000000pt" viewBox="0 0 16.000000 27.000000"
+                                preserveAspectRatio="xMidYMid meet">
+                                <metadata>
+                                    Created by potrace 1.15, written by Peter Selinger 2001-2017
+                                </metadata>
+                                <g transform="translate(0.000000,27.000000) scale(0.100000,-0.100000)" id="next"
+                                    fill="#ca4549" stroke="none">
+                                    <path d="M7 263 c-16 -15 -4 -42 38 -83 l45 -44 -46 -47 c-48 -48 -55 -81 -20
+-87 24 -5 136 104 136 133 0 12 -25 45 -58 78 -54 53 -79 67 -95 50z" />
+                                </g>
+                            </svg></a>
+                    </div>
                 </div>
             </div>
-
         </section>
-        <section class="services">
+        <section class="services" id="services">
+
             <div class="our_services">
                 <h2 class="services-title">Our Services</h2>
-                <p class="text_services">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p class="text_services">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
+                    mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce
+                    dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             </div>
             <div class="icons">
                 <div class="icons_block1">
                     <div class="icon-width">
-                        <img class="icon--services" src="assets/img/design.png"/>
+                        <img class="icon--services" src="assets/img/design.png" />
                         <div class="icon-box">
                             <h3 class="icon-title">Custom Design</h3>
-                            <p class="text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                            <p class="text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet,
+                                viverra lacus ut, ultrices velit.</p>
                         </div>
                     </div>
                     <div class="icon-width">
-                        <img class="icon--services" src="assets/img/ideas.png"/>
+                        <img class="icon--services" src="assets/img/ideas.png" />
                         <div class="icon-box">
                             <h3 class="icon-title">Inovative Ideas</h3>
-                            <p class="text">Quisque luctus, quam eget molestie com&shymodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                            <p class="text">Quisque luctus, quam eget molestie com&shymodo, lacus purus cursus purus,
+                                nec rutrum tellus dolor id lorem.</p>
                         </div>
-                    </div>                
+                    </div>
                     <div class="icon-width">
-                        <img class="icon--services" src="assets/img/answer.png"/>
-                        <div class="icon-box">                    
+                        <img class="icon--services" src="assets/img/answer.png" />
+                        <div class="icon-box">
                             <h3 class="icon-title">Love Is The Answer</h3>
-                            <p class="text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                            <p class="text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+                                consequat felis. Quisque condimentum.</p>
                         </div>
                     </div>
                     <div class="icon-width">
                         <img class="icon--services" src="assets/img/phone.png">
                         <div class="icon-box">
                             <h3 class="icon-title">Responsive Layout</h3>
-                            <p class="text">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Prae&shysent elit leo.</p>
+                            <p class="text">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc
+                                ligula. Prae&shysent elit leo.</p>
                         </div>
                     </div>
                     <div class="icon-width">
-                        <img class="icon--services" src="assets/img/support.png"/>
+                        <img class="icon--services" src="assets/img/support.png" />
                         <div class="icon-box">
                             <h3 class="icon-title">24 / 7 Support</h3>
-                            <p class="text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellen&shytesque egestas venenatis lorem .</p>
+                            <p class="text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem
+                                erat. Pellen&shytesque egestas venenatis lorem .</p>
                         </div>
                     </div>
                     <div class="icon-width">
                         <img class="icon--services" src="assets/img/star.png">
                         <div class="icon-box">
                             <h3 class="icon-title">Feel Like A Star</h3>
-                            <p class="text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                            <p class="text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce
+                                vitae aliquam tellus.</p>
                         </div>
                     </div>
 
                 </div>
-           </div>
+            </div>
         </section>
 
-<!-- SINGOLO2 -->
+        <!-- SINGOLO2 -->
 
-        <section class="black">
+        <section class="black" id="black">
+
             <div class="portfolio align">
                 <h2 class="black-title">Portfolio</h2>
-                <p class="portfolio__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                <p class="portfolio__text">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia
+                    odio sem nec elit.</p>
             </div>
-            <nav class="align" >
-                <ul class="portfolio__sort">
-                   <li class="sort__button">All</li>
-                   <li class="sort__button">Web Design</li>
-                   <li class="sort__button">Graphic Design</li>
-                   <li class="sort__button">Artwork</li>
+            <nav class="align">
+                <ul id='tab' class="portfolio__sort">
+                    <li id="sort1" class="sort__button activity">All</li>
+                    <li id="sort2" class="sort__button">Web Design</li>
+                    <li id="sort3" class="sort__button">Graphic Design</li>
+                    <li id="sort4" class="sort__button">Artwork</li>
                 </ul>
             </nav>
-            <div class="portfolio__picture">
+            <div class="portfolio__picture" id="border">
                 <img class="portfolio__img" src="assets/img/1.png" width="220" height="187" />
                 <img class="portfolio__img" src="assets/img/2.png" width="220" height="187" />
                 <img class="portfolio__img" src="assets/img/3.png" width="220" height="187" />
@@ -145,81 +159,110 @@
                 <img class="portfolio__img" src="assets/img/11.png" width="220" height="187" />
                 <img class="portfolio__img" src="assets/img/12.png" width="220" height="187" />
             </div>
-
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="about__us align">
                 <h2 class="about-title">About Us</h2>
-                <p class="about__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p class="about__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
+                    non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             </div>
             <div class="about__gallery">
-               <div class="about__photo">
-                   <div class="adam">
-                       <img class="photo" src="assets/img/Adam Jensen.png" />
-                       <h3 class="person">Adam Jensen</h3>
-                       <p class="photo__text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                       <div class="media">
-                           <a class="media__link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
-                           <a class="media__link" href="https://plus.google.com/" target="_blank"><img src="assets/img/google.png" alt="google"></a>
-                           <a class="media__link" href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
-                           <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img src="assets/img/linkedin.png" alt="linkedin"></a>
-                       </div>
-                   </div>
-               </div>
-               <div class="about__photo">
-                   <div class="desmond">
-                       <img class="photo" src="assets/img/Desmond Miles.png" />
-                       <h3 class="person">Desmond Miles</h3>
-                       <p class="photo__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                       <div class="media">
-                           <a class="media__link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
-                           <a class="media__link" href="https://plus.google.com/" target="_blank"><img src="assets/img/google.png" alt="google"></a>
-                           <a class="media__link" href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
-                           <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img src="assets/img/linkedin.png" alt="linkedin"></a>
-                       </div>
-                   </div>
-               </div>
-               <div class="about__photo">
-                   <div class="scolara">
-                       <img class="photo" src="assets/img/Scolara Visari.png" />
-                       <h3 class="person">Scolara Visari</h3>
-                       <p class="photo__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                       <div class="media">
-                           <a class="media__link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
-                           <a class="media__link" href="https://plus.google.com/" target="_blank"><img src="assets/img/google.png" alt="google"></a>
-                           <a class="media__link" href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
-                           <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img src="assets/img/linkedin.png" alt="linkedin"></a>
-                       </div>
-                   </div>
-               </div>
-           </div>
+                <div class="about__photo">
+                    <div class="adam">
+                        <img class="photo" src="assets/img/Adam Jensen.png" />
+                        <h3 class="person">Adam Jensen</h3>
+                        <p class="photo__text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec
+                            rutrum tellus dolor id lorem.</p>
+                        <div class="media">
+                            <a class="media__link" href="https://www.facebook.com/" target="_blank"><img
+                                    src="assets/img/facebook.png" alt="facebook"></a>
+                            <a class="media__link" href="https://plus.google.com/" target="_blank"><img
+                                    src="assets/img/google.png" alt="google"></a>
+                            <a class="media__link" href="https://twitter.com/" target="_blank"><img
+                                    src="assets/img/twitter.png" alt="twitter"></a>
+                            <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img
+                                    src="assets/img/linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__photo">
+                    <div class="desmond">
+                        <img class="photo" src="assets/img/Desmond Miles.png" />
+                        <h3 class="person">Desmond Miles</h3>
+                        <p class="photo__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet,
+                            viverra lacus ut, ultrices velit.</p>
+                        <div class="media">
+                            <a class="media__link" href="https://www.facebook.com/" target="_blank"><img
+                                    src="assets/img/facebook.png" alt="facebook"></a>
+                            <a class="media__link" href="https://plus.google.com/" target="_blank"><img
+                                    src="assets/img/google.png" alt="google"></a>
+                            <a class="media__link" href="https://twitter.com/" target="_blank"><img
+                                    src="assets/img/twitter.png" alt="twitter"></a>
+                            <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img
+                                    src="assets/img/linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about__photo">
+                    <div class="scolara">
+                        <img class="photo" src="assets/img/Scolara Visari.png" />
+                        <h3 class="person">Scolara Visari</h3>
+                        <p class="photo__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et
+                            consequat felis. Quisque condimentum.</p>
+                        <div class="media">
+                            <a class="media__link" href="https://www.facebook.com/" target="_blank"><img
+                                    src="assets/img/facebook.png" alt="facebook"></a>
+                            <a class="media__link" href="https://plus.google.com/" target="_blank"><img
+                                    src="assets/img/google.png" alt="google"></a>
+                            <a class="media__link" href="https://twitter.com/" target="_blank"><img
+                                    src="assets/img/twitter.png" alt="twitter"></a>
+                            <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img
+                                    src="assets/img/linkedin.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-<!-- SINGOLO3 -->
+        <!-- SINGOLO3 -->
 
-        <div class="inform">
+        <div class="inform" id="inform">
             <div class="quote">
                 <h2 class="info-title">Get a Quote</h2>
-                <p class="quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+                <p class="quote__text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis,
+                    non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus,
+                    tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
             </div>
             <div class="area__info">
-                <form action="" method="POST">
-                    <input type="text"  name="user__name" required placeholder="Name (Required)">
-                    <input type="email" name="email" required placeholder="Email (Required)">
+                <form id="form" action="" method="POST">
+                    <input value="" type="text" name="user__name" required placeholder="Name (Required)">
+                    <input value="" type="email" name="email" required placeholder="Email (Required)">
                     <input type="text" name="subject" placeholder="Subject">
-                    <textarea rows="13" placeholder="Describe your project in detail..."></textarea>
-                    <input type="submit" value="Submit" class="submit">
+                    <textarea name="text" rows="13" placeholder="Describe your project in detail..."></textarea>
+                    <button id="submit" type="submit" class="submit">Submit</button>
                 </form>
+                <div class="modal" id="modal">
+                    <div class="modal__info">
+                        <p>Письмо отправлено</p>
+                        <p id="subject"></p>
+                        <p id="text"></p>
+                        <button type="button" id="exit" class="exit">OK</button>
+                    </div>
+                </div>
                 <div class="contact">
                     <h3 class="contact__title">Contact Information</h3>
-                    <p class="contact__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shyra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
+                    <p class="contact__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viver&shyra nibh. Fusce
+                        vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus.
+                        Morbi at aliquet turpis, et consequat felis. </p>
                     <div class="contact__icon">
-                        <a href="https://www.google.com/maps/search/14%2F05+Elm+St,+%D0%9C%D0%B0%D0%BD%D1%87%D0%B5%D1%81%D1%82%D0%B5%D1%80,+%D0%9D%D1%8C%D1%8E-%D0%A5%D1%8D%D0%BC%D0%BF%D1%88%D0%B8%D1%80,+%D0%A1%D0%A8%D0%90/@42.9704446,-71.5841458,11z/data=!3m1!4b1" target="_blank"><img src="assets/img/location.png" alt="map><img src="assets/img/location.png"></a>
-                        <p class="info">Elm St. 14/05 Lost City </p>
+                        <a href="https://www.google.com/maps/search/14%2F05+Elm+St,+%D0%9C%D0%B0%D0%BD%D1%87%D0%B5%D1%81%D1%82%D0%B5%D1%80,+%D0%9D%D1%8C%D1%8E-%D0%A5%D1%8D%D0%BC%D0%BF%D1%88%D0%B8%D1%80,+%D0%A1%D0%A8%D0%90/@42.9704446,-71.5841458,11z/data=!3m1!4b1"
+                            target="_blank"><img src="assets/img/location.png" alt="map><img src="
+                                assets/img/location.png"> </a> <p class="info">Elm St. 14/05 Lost City </p>
                     </div>
                     <div class="contact__icon">
                         <a href="tel:035283318635" target="_blank"><img src="assets/img/phone-contact.png"></a>
-                        <p class="info">03528 331 86 35  </p>
+                        <p class="info">03528 331 86 35 </p>
                     </div>
                     <div class="contact__icon">
                         <a href="mailto:info@singolo.com" target="_blank"><img src="assets/img/mail.png"></a>
@@ -227,16 +270,22 @@
                     </div>
                 </div>
             </div>
-        </div>         
+        </div>
     </main>
     <footer>
         <div class="copy">&copy; Copyright 2013</div>
         <div class="copy-icon">
-            <a class="media__link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
-            <a class="media__link" href="https://plus.google.com/" target="_blank"><img src="assets/img/google.png" alt="google"></a>
-            <a class="media__link" href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
-            <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img src="assets/img/linkedin.png" alt="linkedin"></a>
+            <a class="media__link" href="https://www.facebook.com/" target="_blank"><img src="assets/img/facebook.png"
+                    alt="facebook"></a>
+            <a class="media__link" href="https://plus.google.com/" target="_blank"><img src="assets/img/google.png"
+                    alt="google"></a>
+            <a class="media__link" href="https://twitter.com/" target="_blank"><img src="assets/img/twitter.png"
+                    alt="twitter"></a>
+            <a class="media__link" href="https://www.linkedin.com/" target="_blank"><img src="assets/img/linkedin.png"
+                    alt="linkedin"></a>
         </div>
-    </footer>    
+    </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
